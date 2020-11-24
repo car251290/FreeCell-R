@@ -1,0 +1,48 @@
+.GameBoard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 75px 1fr;
+    background: url("./images/tockphoto.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.GameBoard-Foundation {
+    margin-right: 10px;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.GameBoard-OpenCell {
+    margin-left: 10px;
+    grid-row: 1 / span 1;
+    grid-column: 5 / span 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.GameBoard-Tableau {
+    grid-row: 2 / span 1;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px 32px;
+    text-align: center;
+    border-top: 20px;
+    width: 60 px;
+    height: 50 px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    top: 20 px
+}

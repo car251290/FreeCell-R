@@ -1,0 +1,28 @@
+.FoundationCell .large-suit-icon {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background-image: url("../images/suits2.png");
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.FoundationCell .large-suit-icon.spade {
+    right: 45%;
+    background-position: -25px -34px;
+}
+
+.FoundationCell .large-suit-icon.club {
+    background-position: -2px -5px;
+}
+
+.FoundationCell .large-suit-icon.heart {
+    background-position: -2px -33px;
+}
+
+.FoundationCell .large-suit-icon.diamond {
+    background-position: -24px -6px;
+}

@@ -1,0 +1,8 @@
+.empty-cell {
+    position: relative;
+    width: 40px;
+    height: 56px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: default;
+}

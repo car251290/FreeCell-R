@@ -1,0 +1,47 @@
+.Card {
+    position: relative;
+    width: 40px;
+    height: 56px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    cursor: default;
+}
+
+.Card:not(.selectable) {
+    background-color: lightgrey;
+}
+
+.Card .suit-icon {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    background-image: url("../images/suits2.png");
+    background-size: 24px auto;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+}
+
+.Card .suit-icon.spade {
+    background-position: -12px -17px;
+}
+
+.Card .suit-icon.club {
+    background-position: -1px -3px;
+}
+
+.Card .suit-icon.heart {
+    background-position: -1px -16px;
+}
+
+.Card .suit-icon.diamond {
+    background-position: -12px -3px;
+}
+
+.Card-number {
+    float: left;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
