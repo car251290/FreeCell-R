@@ -5,34 +5,33 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+npm install
 
-### `yarn start`
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-### `yarn build`
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### The points I build`
+Playing area should have:
+ 4 “free cell” positions at top.
+ 4 “foundation” position to move cards to complete the game
+ 8 cascade columns
+   HTMl&CSS JS(React)
+   Random deal to lay out cards in starting cascade columns
+   Ability to drag a single card to new legal position
 
 ## Learn More
+ To continue conding in JS(BUILDED with logical and with test (help from stackoverflow and from the rules of the game and Example how this game was build in JS))
+the design the game and test it, the problems for this application I solve it using google. I code in React because I find better and I have been doing projects using I find more confortable
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-
+### Points I did not build
+It must include some kind of JSON I/O. Show us how you would use JSON for external data
+Extra points for additional features, animations, effects, etc. will be awarded. Surprise us!
+All the source code and assets must be uploaded to public GitHub/Bitbucket account
+Playscreen
+Endscreen
