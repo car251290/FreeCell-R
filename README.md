@@ -1,6 +1,7 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React
+React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
+
 
 ## Available Scripts
 
@@ -35,3 +36,7 @@ Extra points for additional features, animations, effects, etc. will be awarded.
 All the source code and assets must be uploaded to public GitHub/Bitbucket account
 Playscreen
 Endscreen
+
+#Tools 
+# JS
+
