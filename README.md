@@ -37,6 +37,8 @@ All the source code and assets must be uploaded to public GitHub/Bitbucket accou
 Playscreen
 Endscreen
 
-#Tools 
-# JS
+# Tools 
+1- JS
+2- React
+3- HTML & CSS
 
